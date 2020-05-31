@@ -1,0 +1,61 @@
+.FormLogin h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.formContainer{
+    margin: 0 auto;
+    width: 25%;
+}
+.userName, .password{
+    width: 100%;
+    border:0;
+    padding: 3px 0;
+    color: #555;
+}
+input.userName:focus, input.password:focus{
+    outline: none
+}
+.wrapper_userName, .wrapper_password  {
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+}
+.formContainer label{
+    font-weight: bold;
+    color: #555;
+}
+button.btn-sign-in {
+    background-color: #00bd56;
+    color: #fff;
+    border: 0;
+    width: 100%;
+    border-radius: 3px;
+    padding: 16px 0;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.2s all;
+}
+button.btn-sign-in:hover{
+    background-color: #0ca551;
+}
+.keepMe{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 17px;
+    color: #888;
+    font-weight: 500;
+}
+.keepMe span{
+    margin-left: 4px;
+}
+.forgetInfo {
+    text-align: center;
+}
+.forgetInfo {
+    display: flex;
+    place-content: space-evenly;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 20px;
+}

@@ -1,15 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+import React,{Component} from 'react';
+import FromLogin from './component/FromLogin';
+class App extends Component {
+  render(){
+    return (
+      <div className="App">
+        <header className="App-header">
+          <FromLogin/>
+        </header>
         
-      </header>
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
